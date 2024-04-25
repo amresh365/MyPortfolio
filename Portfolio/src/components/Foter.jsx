@@ -4,15 +4,15 @@ const Foter = () => {
   const date = new Date().getFullYear();
   console.log(date);
   return (
-    <div className="container-fluid bg-dark my-3">
-      <foter className="footer text-light">
+    <div className="container-fluid bg-black my-3 footer1">
+      <footer className="footer text-light">
         <ul className="ul ">
           <li>ContectUs-amreshgupta365@gmail.com</li>
         </ul>
         <ul className="ul">
           <li>&copy; {date}</li>
         </ul>
-      </foter>
+      </footer>
     </div>
   );
 };
