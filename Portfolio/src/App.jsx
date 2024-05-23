@@ -2,7 +2,7 @@ import React from "react";
 import HomScreen from "./Screen/HomeScreen";
 const App = () => {
   return (
-    <div>
+    <div className="bg-dark">
       <HomScreen />
     </div>
   );

@@ -10,7 +10,7 @@ const Foter = () => {
           <li>ContectUs-amreshgupta365@gmail.com</li>
         </ul>
         <ul className="ul">
-          <li>&copy; {date}</li>
+          <li>CopyRight &copy; {date} | Amresh Gupta</li>
         </ul>
       </footer>
     </div>

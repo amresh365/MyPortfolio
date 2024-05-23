@@ -6,7 +6,8 @@ const About = () => {
       <div className="container about aboutme text-light">
         <h2>About Me</h2>
         <p>
-          "I am currently pursuing a B.Tech in Computer Science and I am deeply
+          <strong>Hi!</strong> My name is <strong>Amresh Gupta</strong> I am
+          currently pursuing a B.Tech in Computer Science and I am deeply
           passionate in the tech field.My focus honed my skills in programming,
           problem solving,and technology integration.I have a keen interest in
           exploring innovative technologies and am eager to apply knowledge to
