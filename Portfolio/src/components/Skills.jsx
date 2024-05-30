@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <div className="container text-center my-3">
-      <h1 className="text-light">Skills</h1>
+      <h1 className="text-light headings">Skills</h1>
       <div className=" container devlopment col-sm-3 col-md-4 col-lg-8">
         <div className="row my-3 align-items-center">
           <div className="col">
@@ -105,6 +105,18 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          <div className="col">
+            <div class="card bg-dark text-light">
+              <img
+                src="src/assets/redux.webp "
+                class="card-img-top reduxImg"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Redux</h5>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="row d-flex align-items-center my-3">
           <div className="col ">
@@ -131,18 +143,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="col">
-            <div class="card bg-dark text-light">
-              <img
-                src="src/assets/redux.webp "
-                class="card-img-top reduxImg"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Redux</h5>
-              </div>
-            </div>
-          </div>
+
           <div className="col">
             <div class="card bg-dark text-light">
               <img

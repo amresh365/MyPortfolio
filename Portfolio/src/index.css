@@ -9,6 +9,9 @@ body {
 html {
   width: 100%;
 }
+.headings {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 
 :root {
   --box-shadow: 5px 5px 10px 20px rgba(45, 123, 218, 0.5);
@@ -46,7 +49,8 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  box-shadow: 2px 3px 3px 5px rgba(rgb(46, 14, 160), rgb(35, 39, 35), blue, 0.4);
   border-radius: 20px;
   margin-left: 130px;
 }
@@ -237,17 +241,31 @@ p {
   top: 10px;
 }
 /* Contact Section*/
+.connectUs {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
 .contactlist {
   list-style: none;
   display: flex;
   flex-direction: row;
   text-align: center;
   justify-content: center;
+  margin-right: 45px;
+  padding: 0px;
 }
 .logo {
   margin-left: 50px;
   font-size: 30px;
   margin-top: 30px;
+  color: blue;
+}
+.collapse {
+  min-height: 120px;
+  width: 400px;
+}
+.collaps {
+  width: 400px;
 }
 .introd {
   display: flex;
@@ -255,11 +273,11 @@ p {
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-left: 90px;
+  margin-left: 0px;
 }
 .fa-handshake-simple {
   font-size: 30px;
-  margin-top: 45px;
+  margin-top: 5px;
   margin-left: 20px;
   color: rgb(25, 112, 127);
 }
